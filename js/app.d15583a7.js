@@ -1167,7 +1167,7 @@
                 }, {
                     path: "storehouse", component: function () {
                         return c.e("chunk-bcc272d6").then(c.bind(null, "364f"))
-                    }, meta: {title: " 仓储监控"}
+                    }, meta: {title: " 仓库监控"}
                 }]
             }, {
                 path: "/callPolice",
