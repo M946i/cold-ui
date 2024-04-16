@@ -1,26 +1,19 @@
 <template>
-  <Login msg=""/>
+  <div id="app">
+    <router-view /> <!-- 这里是用于显示当前路由对应的组件的地方 -->
+  </div>
 </template>
 
 <script>
-
-import Login from "./components/Login.vue";
-
 export default {
-  name: 'App',
-  components: {
-    Login
-  }
+  name: 'App'
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+/* 设置所有元素的边距和内边距为零 */
+* {
+  margin: 0;
+  padding: 0;
 }
 </style>
