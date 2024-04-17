@@ -18,7 +18,7 @@ export default {
             // 清除本地存储中的 token
             localStorage.removeItem('token');
             // 跳转到登录页面或其他页面
-            this.$router.push('/login');
+            this.$router.push('/');
           })
           .catch(error => {
             // 处理错误响应
